@@ -8,7 +8,7 @@ const App = () => {
   const[input,setinput]=useState( { temperature: 25, conditions: "Sunny" });
   
   return (
-    <div>
+    <div id="container">
     <Weather data={input}/>
         
     </div>
