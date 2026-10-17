@@ -4,12 +4,12 @@ function WeatherDisplay({ data }) {
     <div>
       {data.temperature > 20 ? (
         <>
-          <p className="red">{data.temperature}</p>
+          <span className="red">{data.temperature}</span>
           <p className="red">{data.conditions}</p>
         </>
       ) : (
         <>
-          <p className="blue">{data.temperature}</p>
+          <span className="blue">{data.temperature}</span>
           <p className="blue">{data.conditions}</p>
         </>
       )}
